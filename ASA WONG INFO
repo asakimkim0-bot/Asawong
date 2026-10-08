@@ -1,1 +1,29 @@
-sandbox:/mnt/data/asa_wong_pink_website.html
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASA WONG | Official Superstar</title>
+<style>
+:root{--pink:#ff8fc8;--hot:#ed4fa2;--pale:#ffe4f2;--muted:#77576a;--ink:#3b1730;--bg:#fff7fb;--panel:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:17px 7%;border-bottom:1px solid #f4c4df;position:sticky;top:0;background:#fff7fbeF;backdrop-filter:blur(12px);z-index:5}.brand{font-weight:900;letter-spacing:2px;color:var(--hot)}nav a{color:var(--ink);text-decoration:none;font-size:.85rem;margin-left:18px;font-weight:700}nav a:hover{color:var(--hot)}
+.hero{min-height:75vh;display:flex;align-items:center;padding:75px 9%;background:radial-gradient(ellipse at 85% 30%,#ffd4e9 0%,#ffeaf4 24%,#fff7fb 65%);border-bottom:1px solid #f4c4df;position:relative;overflow:hidden}.hero:after{content:"♡";position:absolute;right:7%;top:8%;font-size:clamp(10rem,26vw,25rem);line-height:1;color:#f9c5e0;opacity:.6;pointer-events:none}.hero-inner{position:relative;z-index:1;max-width:760px}.kicker{color:var(--hot);font-size:.78rem;letter-spacing:3px;font-weight:900}.hero h1{font-size:clamp(3.7rem,10vw,8rem);line-height:.88;letter-spacing:-4px;margin:18px 0;color:#471a37}.hero h2{font-size:clamp(1rem,2.5vw,1.65rem);font-weight:800;color:var(--hot);letter-spacing:1px;max-width:720px}.hero p{max-width:620px;color:#77576a;font-size:1.04rem}.button{display:inline-block;background:var(--hot);color:white;padding:13px 20px;margin-top:18px;text-decoration:none;font-weight:900;letter-spacing:1px;border-radius:999px;box-shadow:0 7px 18px #ed4fa233}.button:hover{background:#d9388d}
+section{padding:65px 8%;max-width:1250px;margin:auto}.section-title{font-size:clamp(1.8rem,4vw,3rem);margin:0 0 12px}.section-title span{color:var(--hot)}.intro{color:var(--muted);max-width:750px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}.card{background:white;border:1px solid #f5c3df;border-radius:18px;padding:24px;box-shadow:0 8px 24px #9b3f6c0b}.number{font-size:clamp(1.8rem,4vw,3rem);color:var(--hot);font-weight:900;line-height:1.1}.label{font-size:.9rem;color:var(--muted);margin-top:10px}
+.columns{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}.tile{min-height:205px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(145deg,#fff,#ffe4f2);border:1px solid #f5c3df;border-radius:18px;padding:24px}.tile .num{color:var(--hot);letter-spacing:2px;font-size:.75rem;font-weight:900}.tile h3{font-size:1.3rem;margin:10px 0}.tile p{color:var(--muted);margin:0}.quote{border-left:4px solid var(--hot);padding:12px 22px;color:#6d3154;font-size:1.2rem;max-width:850px;margin-top:28px;background:#fff0f7;border-radius:0 12px 12px 0}
+footer{text-align:center;padding:35px 20px;border-top:1px solid #f4c4df;color:var(--muted);font-size:.88rem;letter-spacing:1px;background:#fff}
+@media(max-width:760px){nav{padding:15px 5%;align-items:flex-start;flex-direction:column}nav a{margin:0 12px 0 0}.hero{padding:65px 7%;min-height:70vh}.hero h1{letter-spacing:-2px}.stats{grid-template-columns:repeater(2,1fr)}.columns{grid-template-columns:1fr}section{padding:50px 6%}}
+</style>
+</head>
+<body>
+<nav><div class="brand">♡ ASA WONG</div><div><a href="#about">THE ARTIST</a><a href="#achievements">ACHIEVEMENTS</a><a href="#legacy">LEGACY</a></div></nav>
+<header class="hero" id="top"><div class="hero-inner"><div class="kicker">BABYMONSTER · GLOBAL SUPERSTAR</div><h1>ASA<br>WONG ♡</h1><h2>THE MOST SUCCESSFUL IDOL IN BABYMONSTER.</h2><p>Rapper. Performer. Fashion icon. A name made for the world stage. Explore Asa Wong's career, achievements, and global influence.</p><a class="button" href="#achievements">EXPLORE HER WORLD ↓</a></div></header>
+<section id="about"><div class="kicker">THE ARTIST</div><h2 class="section-title">One name. <span>One legacy.</span></h2><p class="intro">Asa Wong brings fearless rap, precision performance, and unmistakable style to the spotlight. From music and fashion to business and philanthropy, her story is one of ambition, artistry, and worldwide impact.</p><div class="quote">“The stage is where I speak. The world is where I make my mark.” ♡</div></section>
+<section id="achievements"><div class="kicker">CAREER SNAPSHOT</div><h2 class="section-title">The numbers behind <span>the name.</span></h2><p class="intro">Career milestones and superstar stats.</p><div class="stats"><div class="card"><div class="number">500M+</div><div class="label">Global fanbase</div></div><div class="card"><div class="number">100B+</div><div class="label">Career streams</div></div><div class="card"><div class="number">200+</div><div class="label">Major awards</div></div><div class="card"><div class="number">35+</div><div class="label">Luxury partnerships</div></div></div></section>
+<section id="legacy"><div class="kicker">THE ASA WONG EFFECT</div><h2 class="section-title">More than a <span>superstar.</span></h2><div class="columns"><div class="tile"><div class="num">01 — MUSIC</div><h3>The Stage Queen</h3><p>Powerful rap verses, sharp choreography, and unforgettable performances.</p></div><div class="tile"><div class="num">02 — FASHION</div><h3>Pink Carpet Royalty</h3><p>Editorial covers, couture campaigns, and a signature global style.</p></div><div class="tile"><div class="num">03 — LEGACY</div><h3>The Wong Era</h3><p>A vision spanning entertainment, fashion, film, and philanthropy.</p></div></div><a class="button" href="#top">BACK TO TOP ↑</a></section>
+<footer>♡ ASA WONG · THE WORLD IS WATCHING · ♡</footer>
+</body></html>
+
+
